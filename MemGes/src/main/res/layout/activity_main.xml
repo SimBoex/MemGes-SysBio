@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="6dp"
+    android:weightSum="2"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/buttonRegistra"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Registra  nuovo utente"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:layout_weight="1"
+        android:onClick="RegistraUtente"/>
+
+    <Button
+        android:id="@+id/buttonInserisciSessione"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Registra nuova sessione"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:layout_weight="1"
+        android:onClick="InserisciNuovaSessione"/>
+
+
+
+</LinearLayout>

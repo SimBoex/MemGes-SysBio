@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="6dp"
+    android:weightSum="2">
+    <TextView
+        android:id="@+id/testo1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Dovrai eseguire due gesti:\nun cerchio e un rettangolo\n Per registrare:\n1)Clicca sul pulsante in fondo alla pagina\n\2)Rivolgi lo schermo verso l'esterno\n3)clicca sul pulsante + del volume  per iniziare la registrazione\n4)quando hai terminato il gesto premi il pulsante - del volume\n"
+        android:layout_weight="0.5"
+        android:textStyle="bold"
+        android:textColor="@color/black">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/testo2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_weight="0.5"
+        android:text="\n"
+        android:textColor="@color/black"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/Registra"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Inserisci il primo gesto"
+        android:layout_weight="1"
+        android:onClick="registraGesto">
+
+    </Button>
+
+
+</LinearLayout>
